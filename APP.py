@@ -77,9 +77,9 @@ def main():
     
     # Paket bilgileri
     package_info = {
-        "Free": {"limit": "2.5 MB", "pdf": "❌", "price": "Ücretsiz"},
-        "Pro": {"limit": "25 MB", "pdf": "✅", "price": "3$/ay"},
-        "Business": {"limit": "200 MB", "pdf": "✅", "price": "15$/ay"}
+        "Free": {"limit": "2.5 MB", "pdf": "❌"},
+        "Pro": {"limit": "25 MB", "pdf": "✅"},
+        "Business": {"limit": "200 MB", "pdf": "✅"}
     }
     
     st.sidebar.info(
