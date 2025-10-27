@@ -77,16 +77,16 @@ def main():
     
     # Paket bilgileri
     package_info = {
-        "Free": {"limit": "2.5 MB", "pdf": "❌", "price": "Ücretsiz"},
-        "Pro": {"limit": "25 MB", "pdf": "✅", "price": "3$/ay"},
-        "Business": {"limit": "200 MB", "pdf": "✅", "price": "15$/ay"}
+        "Free": {"limit": "2.5 MB", "pdf": "❌"},
+        "Pro": {"limit": "25 MB", "pdf": "✅"},
+        "Business": {"limit": "200 MB", "pdf": "✅"}
     }
     
     st.sidebar.info(
         f"**{package} Paketi**\n\n"
         f"📦 Veri Limiti: {package_info[package]['limit']}\n\n"
         f"📄 PDF Rapor: {package_info[package]['pdf']}\n\n"
-        f"💰 Fiyat: {package_info[package]['price']}"
+        
     )
     
     st.sidebar.markdown("---")
@@ -407,4 +407,6 @@ def main():
 if __name__ == "__main__":
     # Outputs klasörünü oluştur
     os.makedirs("outputs", exist_ok=True)
+    
+    
     main()
