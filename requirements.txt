@@ -1,0 +1,37 @@
+# AutoInsight - Gerekli Python Kütüphaneleri
+
+# Veri işleme
+pandas>=2.0.0
+numpy>=1.24.0
+openpyxl>=3.1.0  # Excel desteği
+chardet>=5.1.0   # Encoding tespiti
+
+# İstatistik
+scipy>=1.10.0
+
+# Görselleştirme
+matplotlib>=3.7.0
+seaborn>=0.12.0
+plotly>=5.14.0
+
+# PDF oluşturma
+reportlab>=4.0.0
+
+# Web arayüzü
+streamlit>=1.28.0
+
+# Ödeme sistemi
+stripe>=7.0.0
+
+# Firebase (opsiyonel - tam entegrasyon için)
+firebase-admin>=6.2.0
+
+# Opsiyonel: Gelişmiş profilleme
+ydata-profiling>=4.5.0
+
+# Opsiyonel: Hızlı veri formatları
+pyarrow>=12.0.0  # Parquet desteği
+fastparquet>=2023.4.0
+
+# HTTP istekleri (Firebase için)
+requests>=2.31.0
